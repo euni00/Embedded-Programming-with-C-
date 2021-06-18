@@ -72,6 +72,23 @@ resources are scarce.
 
 ### Looking at performance implications
 
+To Achieve maximum preformance -> Embedded programs utilize all the performance optimization capabilities of compilers.
+
+### Working with different architectures
+
+Have to know the traits of particular architectures, such as **endianness** and **alignment**
+
+### Endianness 
+
+Endianness defines the order in which bytes that represent large numerical values are stored in mermory. (큰 숫자 값을 나타내는 바이트가 mermory에 저장되는 순서를 정의)
+
+Big-endian -> The most significant byte is stored first.
+
+Little-endian -> The least significant byte is stored first.
+
+### Alignment
+
+
 
 
 
