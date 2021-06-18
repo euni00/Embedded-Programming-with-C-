@@ -64,6 +64,14 @@ FPGAs -> Semiconductor devices can be reprogrammed on a hardware level after man
 
 ### Working with limited resources
 
+High-end storage system -> utilizing large amounts of memory and resources for data caching, replication, encryption.
+
+Embedded system hardware -> Designed to minimize the cost of the overall system. 
+
+resources are scarce.
+
+### Looking at performance implications
+
 
 
 
