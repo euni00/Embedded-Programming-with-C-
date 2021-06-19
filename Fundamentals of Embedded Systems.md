@@ -88,6 +88,40 @@ Little-endian -> The least significant byte is stored first.
 
 ### Alignment
 
+Compilers align data automatically to achieve the most efficient data access.
+
+A developer expect that the size of the structure is the sum of the individual sizes. -> However, the result highly depends on the target architecture.
+
+Access data alignmnet is also crucial for efficient memory mapping through hardware address translation mechanisms.
+
+### Fixed-width integer types
+
+Char, short, int is architecture-dependent.
+
+size_t is a special data type to represent the offset and data sizes in an architecture-independent way.
+
+### Using C++ for embedded development
+
+The complexity of embedded systems increased and developers faced the limitations of C.
+
+The most notable being error-prone resource management and a lack of high-level abstractions. -> The development of complex applications in C requires a lot of effort and time.
+
+C++ was evolving, gaining new fectures and adopting programming techniques that make it the best choice for developers of modern embedded systems.
+
+1. You don't pay for what you don't use.
+
+2. Object-oriented programming to time the code complexity.
+
+3. Resource acquisition is initialization (RAH).
+
+4. Exceptions.
+
+5. A powerful standard libary.
+
+6. Threads and memory model as part of the language specification.
+
+### 1. You don't pay for what you don't use
+
 
 
 
