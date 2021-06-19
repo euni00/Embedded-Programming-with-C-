@@ -114,13 +114,23 @@ C++ was evolving, gaining new fectures and adopting programming techniques that 
 
 3. Resource acquisition is initialization (RAH).
 
+A resource is allocated in an object constructor and deallocated in the object destructor. -> The resource is only held while the object is alive.
+
 4. Exceptions.
 
 5. A powerful standard libary.
 
+Using data structures, such as arrays, binary tress, and hast tables.
+
+Using standard algorithms, such as find, sort, replace, binary search, operations with sets, and permutations.
+
 6. Threads and memory model as part of the language specification.
 
-### 1. You don't pay for what you don't use
+C++ explicityly define classes for threads, various types of locks and mutexes, condition variables, and atomic variables.
+
+
+
+
 
 
 
