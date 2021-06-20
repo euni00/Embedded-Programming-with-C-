@@ -39,3 +39,11 @@ We should understand how to organize date in memory to get the most efficient us
 
 #### 7. Aligning data with cache lines
 
+### Technical requirements
+
+Learning how to debug embedded applications int the ARM platform emulator.
+
+Ubuntu Linux in a Docker container ( Build system ) 
+
+Debian Linux in a QEMU ARM emulator ( Target system ) 
+
