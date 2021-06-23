@@ -1,5 +1,10 @@
 # Setting up the Environment
 
+### Cross-compilation
+
+Build system - Ubuntu linux in docker
+
+Host system - QEMU running Raspbian Linux
 
 ### Using gdbserver for remote debugging 
 
@@ -46,4 +51,12 @@ Learning how to debug embedded applications int the ARM platform emulator.
 Ubuntu Linux in a Docker container ( Build system ) 
 
 Debian Linux in a QEMU ARM emulator ( Target system ) 
+
+const : 변수를 상수값으로 초기화하고, 멤버 함수에서 객체의 멤버 변수를 변경하지 않기 위한 목적으로 사용되기 때문이다. / 중복 선언을 못하게 한다. 
+
+
+
+
+
+
 
