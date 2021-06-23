@@ -82,9 +82,9 @@ Have to know the traits of particular architectures, such as **endianness** and 
 
 Endianness defines the **order** in which bytes that represent large numerical values are stored in mermory. (큰 숫자 값을 나타내는 바이트가 mermory에 저장되는 순서를 정의)
 
-Big-endian -> The most significant byte is stored first.
+Big-endian -> The most significant byte is stored first. (낮은 주소에 데이터의 높은 바이트(MSB, Most Significant Bit)부터 저장하는 방식)
 
-Little-endian -> The least significant byte is stored first.
+Little-endian -> The least significant byte is stored first. (낮은 주소에 데이터의 낮은 바이트(LSB, Least Significant Bit)부터 저장하는 방식)
 
 ### Alignment
 
